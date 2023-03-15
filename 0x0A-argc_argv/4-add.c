@@ -5,7 +5,6 @@
 	/**
 	 * check_num - check - string there are digit
 	 * @str: array str
-	 *
 	 * Return: Always 0 (Success)
 	 */
 	int check_num(char *str)
@@ -41,12 +40,8 @@
 
 
 	int main(int argc, char *argv[])
-
-
 	{
-
-
-		/*Declaring variables*/
+	/*Declaring variables*/
 		int count;
 		int str_to_int;
 		int sum = 0;
@@ -71,14 +66,10 @@
 				return (1);
 			}
 
-
 			count++;
 		}
 
-
 		printf("%d\n", sum); /*print sum*/
-
-
 		return (0);
 	}
 
